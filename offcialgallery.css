@@ -1,0 +1,50 @@
+body {
+  justify-content: center;
+  background-color: #f0f0f0;
+  background-image: url("https://i.pinimg.com/564x/ea/07/68/ea0768a31ecd6ae483d7e5de0dea1d9f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding-top: 110px;  
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Add space between the header and the grid */
+}
+h2 {
+  font-family: 'Poppins', sans-serif; 
+  font-size:100%; 
+  color: white;
+  text-align: justify;
+  margin-top: 170px;
+  white-space: nowrap;
+  animation: roll 20s linear infinite;
+  }
+
+div.photo {
+  float: left;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+div.desc {
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  color: #F2F0EB;
+  text-align: center;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(1000px);
+  }
+}

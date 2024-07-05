@@ -1,0 +1,101 @@
+.header1 {
+  background-color: #7D8ABC;
+  padding: 150px;
+  width: 1200px;
+  position: relative;
+}
+
+h1 {
+  color: #FFF8DB;
+  font-size: 50px; 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 1000;
+  transform: translateY(-140px);
+  letter-spacing: 2px;
+}
+
+h1:hover {
+  color: #01204E;
+  letter-spacing: 5px;
+}
+
+#block1 {
+  background-color: #FFC7ED;
+  padding: 90px;
+  left: 5;
+  width: 65%;
+  position: absolute;
+  height: 80px;
+  transform: translateY(-110px);
+  border-radius: 40px 40px 0px 0px;
+}
+
+#button1 {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 110px;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  margin-left:230px;
+  margin-top:30px;
+}
+
+#button2 {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  transition: transform 1s ease-in;
+  margin-left:100px;
+}
+
+#button3 {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 110px;
+  cursor: pointer;
+  transition: transform 1s ease-in;
+  margin-left:90px;
+  margin-top:30px;
+}
+
+#par1 {
+  font-family: 'Poppins', sans-serif; 
+  font-size:100%; 
+  color: #163020;
+  text-align: center;
+}
+
+#button1:hover {
+  transform: rotate(360deg);
+}
+
+#button2:hover {
+  transform: rotate(360deg);
+}
+
+#button3:hover {
+  transform: rotate(360deg);
+}
+
+.header2 {
+  background-color: #FFF8DB;
+  padding: 150px;
+  width: 1200px;
+  position: relative;
+}
+
+#block2 {
+  background-color: #FFC7ED;
+  padding: 75px;
+  width: 67%;
+  position: absolute;
+  height: 100px;
+  transform: translateY(-160px);
+  border-radius: 0px 0px 40px 40px;
+}
+
